@@ -6,10 +6,16 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+
+# Unity generated reports and junk
+[Uu]pgrade[Ll]og*
+[Cc]rash[Rr]eport*
 
 # IDE / Visual Studio generated
 .vs/
 .vscode/
+.idea/
 *.csproj
 *.unityproj
 *.sln
@@ -17,11 +23,17 @@
 *.tmp
 *.user
 *.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
 
 # OS generated
 .DS_Store
 Thumbs.db
 
-# Plastic SCM
+# Plastic SCM (if you use it)
 .plastic/
 ignore.conf
